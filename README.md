@@ -40,7 +40,7 @@ Nested lists are resolved according to their hierarchy of braces
 
 ### Custom media expressions
 
-If you have customized the media expressions object, please make sure that you update AND/OR conjunctions to the new format:
+If you have customized the default media expressions map, please make sure that you update AND/OR conjunctions to the new format:
 
 ```
 // OLD
