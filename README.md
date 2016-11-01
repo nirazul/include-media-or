@@ -8,3 +8,49 @@
 
 [**include-media**](https://github.com/eduardoboucas/include-media) simplifies the usage of media queries in Sass. However, media features could only be connected with an AND conjunction.
 This fork enables the usage of nested lists of expressions that are connected with logical AND/OR conjunctions.
+
+### Usage
+
+The `media` mixin can either be used as before with a list of arguments.
+It can also take a list as only argument that may contain nested lists of its own.
+
+Lists with a list separator `space` are considered AND conjunctions
+
+```
+@include media(('<=phone' 'retina2x')) {
+    color: red;
+}
+```
+
+Lists with a list separator `comma` are considered OR conjunctions
+
+```
+@include media(('<=tablet', '>desktop')) {
+    color: red;
+}
+```
+
+Nested lists are resolved according to their hierarchy of braces
+
+```
+@include media(('<=tablet', (>phone retina2x))) {
+    color: red;
+}
+```
+
+
+### Custom media expressions
+
+If you have customized the media expressions object, please make sure that you update AND/OR conjunctions to the new format:
+
+```
+// OLD
+$media-expressions: (
+  'customRetina': '(min-resolution: 192dpi), (min-resolution: 2dppx)',
+) !default;
+
+// NEW
+$media-expressions: (
+  'customRetina': ('(min-resolution: 192dpi)', '(min-resolution: 2dppx)'),
+) !default;
+```
