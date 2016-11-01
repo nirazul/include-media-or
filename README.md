@@ -11,8 +11,7 @@ This fork enables the usage of nested lists of expressions that are connected wi
 
 ### Usage
 
-The `media` mixin can either be used as before with a list of arguments.
-It can also take a list as only argument that may contain nested lists of its own.
+The `media` mixin can be used either as before with a list of arguments, or it can take a list as the only argument:
 
 Lists with a list separator `space` are considered AND conjunctions
 
