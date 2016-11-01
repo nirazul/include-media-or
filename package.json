@@ -1,7 +1,7 @@
 {
   "title": "include-media-or",
   "name": "include-media-or",
-  "version": "1.4.8",
+  "version": "1.0.0",
   "description": "An `include-media` fork, enabling OR conjunctions and nested queries",
   "repository": {
     "type": "git",
@@ -16,7 +16,10 @@
     "url": "https://github.com/nirazul/include-media-or/issues"
   },
   "homepage": "http://include-media.com",
-  "keywords": ["sass", "eyeglass-module"],
+  "keywords": [
+    "sass",
+    "eyeglass-module"
+  ],
   "eyeglass": {
     "exports": "eyeglass-exports.js",
     "needs": "*"
