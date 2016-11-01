@@ -2,7 +2,7 @@
   "title": "include-media-or",
   "name": "include-media-or",
   "version": "1.4.8",
-  "description": "An `include-media` plugin for OR conjunctions and nested queries",
+  "description": "An `include-media` fork, enabling OR conjunctions and nested queries",
   "repository": {
     "type": "git",
     "url": "https://github.com/nirazul/include-media-or.git"

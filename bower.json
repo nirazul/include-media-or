@@ -5,7 +5,7 @@
   "authors": [
     "Rouven Bühlmann <rouven@dreipol.ch>"
   ],
-  "description": "An `include-media` plugin for OR conjunctions and nested queries",
+  "description": "An `include-media` fork, enabling OR conjunctions and nested queries",
   "main": "dist/_include-media-or.scss",
   "keywords": [
     "breakpoint",
