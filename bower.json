@@ -1,0 +1,32 @@
+{
+  "name": "include-media-or",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nirazul/import-media-or",
+  "authors": [
+    "Rouven Bühlmann <rouven@dreipol.ch>"
+  ],
+  "description": "An `include-media` plugin for OR conjunctions and nested queries",
+  "main": "dist/_include-media-or.scss",
+  "keywords": [
+    "breakpoint",
+    "breakpoints",
+    "media",
+    "queries",
+    "media-queries",
+    "media-query",
+    "mediaquery",
+    "sass",
+    "scss",
+    "rwd",
+    "responsive",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

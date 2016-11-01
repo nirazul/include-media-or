@@ -1,0 +1,45 @@
+{
+  "title": "include-media-or",
+  "name": "include-media-or",
+  "version": "1.4.8",
+  "description": "An `include-media` plugin for OR conjunctions and nested queries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirazul/include-media-or.git"
+  },
+  "main": "index.js",
+  "author": {
+    "name": "Rouven Bühlmann",
+    "email": "rouven@dreipol.ch"
+  },
+  "bugs": {
+    "url": "https://github.com/nirazul/include-media-or/issues"
+  },
+  "homepage": "http://include-media.com",
+  "keywords": ["sass", "eyeglass-module"],
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "needs": "*"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "lint": "scss-lint . --config ./.scss-lint.yml"
+  },
+  "license": "MIT",
+  "pre-commit": [
+    "test"
+  ],
+  "devDependencies": {
+    "gh-pages": "^0.3.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-header": "^1.2.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sass": "^2.0.1",
+    "js-yaml": "^3.3.1",
+    "pre-commit": "^1.0.7",
+    "sassdoc": "^2.1.13"
+  }
+}
