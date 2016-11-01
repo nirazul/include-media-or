@@ -1,4 +1,5 @@
-/// `include-media-or` - A `include-media` plugin to enable OR conjunctions and nesting
+///
+/// `include-media-or` - An `include-media` plugin for OR conjunctions and nested queries
 /// Author: Rouven Bühlmann (@nirazul)
 ///
 /// This project is licensed under the terms of the MIT license
