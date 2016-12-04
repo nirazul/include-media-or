@@ -31,7 +31,6 @@
 @mixin media($conditions...) {
   $is-list-mode: (length($conditions) == 1 and type-of(nth($conditions, 1)) == 'list');
 
-  // scss-lint:disable SpaceAroundOperator
   @if ($im-media-support and length($conditions) == 0) or
       (not $im-media-support and im-intercepts-static-breakpoint($conditions...) and not $is-list-mode) {
     @content;
