@@ -9,6 +9,10 @@
 [**include-media**](https://github.com/eduardoboucas/include-media) simplifies the usage of media queries in Sass. However, media features could only be connected with an AND conjunction.
 This fork enables the usage of nested lists of expressions that are connected with logical AND/OR conjunctions.
 
+### Installation
+
+- [Via npm:](https://www.npmjs.com/package/include-media-or) `npm install include-media-or`
+
 ### Usage
 
 The `media` mixin can be used either as before with a list of arguments, or it can take a list as the only argument:
