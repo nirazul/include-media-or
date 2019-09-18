@@ -30,17 +30,17 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^0.3.0",
-    "gulp": "^3.9.0",
+    "gh-pages": "^2.1.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.5.2",
     "gulp-header": "^1.2.2",
-    "gulp-load-plugins": "^0.10.0",
+    "gulp-load-plugins": "^2.0.1",
     "gulp-replace": "^0.5.3",
-    "gulp-ruby-sass": "^1.0.5",
+    "gulp-ruby-sass": "^3.0.0",
     "gulp-sass": "^2.0.1",
     "js-yaml": "^3.3.1",
     "node-sass": "^3.12.2",
     "pre-commit": "^1.0.7",
-    "sassdoc": "^2.1.13"
+    "sassdoc": "^2.7.1"
   }
 }
