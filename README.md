@@ -1,5 +1,3 @@
-<a href="http://include-media.com">!['At' sign](http://include-media.com/assets/images/logo.png)</a>
-
 # DEPRECATION NOTICE
 This project is no longer maintained.
 Please use [@nirazul/scss-mq](https://github.com/nirazul/scss-mq) instead.
